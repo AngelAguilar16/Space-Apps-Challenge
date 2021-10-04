@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Space Apps</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/Icon_space_apps.jpg" rel="icon">
+  <link href="/assets/img/Nasaicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.5.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <!--<h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="/index.html" class="logo me-auto"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>
+
+
+      <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="/index.html">Inicio</a></li>
+            <li><a class="nav-link scrollto" href="/forms/Maping.html">Mapa de residuos</a></li>
+            <li><a class="nav-link scrollto active" href="/forms/estadisticas.html">Estadísticas</a></li>
+            <li><a class="nav-link scrollto" href="#" title="Script de ML">Predicciones</a></li>
+            <li><a class="nav-link scrollto" href="/index.html#team">¿Quiénes somos?</a></li>
+            <li><a class="nav-link scrollto" href="#" title="APK del proyecto">Aplicación móvil</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+
+    </div>
+  </header><!-- End Header -->
+
+  
+  <main id="main">
+
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <iframe src="" frameborder="0" style="border:0; width: 100%; height: 10px;" allowfullscreen></iframe>
+
+          <div class="section-title">
+              <h2>Nivel de plasticos en los ultimos 5 años. EEUU</h2>
+          </div>
+
+           
+           
+    
+            <div class="faq-list">
+                <div id="myfirstchart" style="height: 250px;"></div>
+                <script>
+                        new Morris.Line({
+                        // ID of the element in which to draw the chart.
+                        element: 'myfirstchart',
+                        // Chart data records -- each entry in this array corresponds to a point on
+                        // the chart.
+                        data: [
+                          { year: '2015', value: 6054.00},
+                          { year: '2016', value: 8072.00},
+                          { year: '2017', value: 16144.00},
+                          { year: '2018', value: 32288.00},
+                          { year: '2019', value: 64576.00},
+                          { year: '2020', value: 129152.00}
+
+                                
+                        ],
+                        // The name of the data record attribute that contains x-values.
+                        xkey: 'year',
+                        // A list of names of data record attributes that contain y-values.
+                        ykeys: ['value'],
+                        // Labels for the ykeys -- will be displayed when you hover over the
+                        // chart.
+                        labels: ['Value']
+                      });
+                </script>
+            </div><br><br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+            <div class="section-title">
+                <h2>Nivel de latas de aérosol en la mar en los ultimos 5 años. EEUU</h2>
+            </div> 
+
+            <div class="faq-list">
+                <div id="can" style="height: 250px;"></div>
+                <script>
+                        new Morris.Line({
+                        // ID of the element in which to draw the chart.
+                        element: 'can',
+                        // Chart data records -- each entry in this array corresponds to a point on
+                        // the chart.
+                        data: [
+                          { year: '2015', value: 2054.00},
+                          { year: '2016', value: 5072.00},
+                          { year: '2017', value: 10144.00},
+                          { year: '2018', value: 22288.00},
+                          { year: '2019', value: 28576.00},
+                          { year: '2020', value: 129152.00}
+
+                                
+                        ],
+                        // The name of the data record attribute that contains x-values.
+                        xkey: 'year',
+                        // A list of names of data record attributes that contain y-values.
+                        ykeys: ['value'],
+                        // Labels for the ykeys -- will be displayed when you hover over the
+                        // chart.
+                        labels: ['Value']
+                      });
+                </script>
+            </div>
+
+            <iframe src="" frameborder="0" style="border:0; width: 100%; height: 10px;" allowfullscreen></iframe>
+           
+
+    
+          </div>
+        </section><!-- End Frequently Asked Questions Section -->
+        
+
+      
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; NASA <strong><span>Space Apps Challenge</span></strong>. 
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="#">NGU</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
